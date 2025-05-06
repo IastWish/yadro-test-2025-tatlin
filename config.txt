@@ -1,0 +1,4 @@
+readDelay 30
+writeDelay 60
+moveDelay 40
+rewindDelay 800
