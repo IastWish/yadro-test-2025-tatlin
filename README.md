@@ -7,4 +7,6 @@ This project implements a data storage device of tape type (Tape), designed for 
 
 ## Build
 After compilation, the programme must be run with the following command:
-`./main <input_file> <output_file> <config.txt> <MemoryLimit>`
+```
+./main <input_file> <output_file> <config.txt> <MemoryLimit>
+```
