@@ -16,6 +16,10 @@ int main(int argc, char* argv[]) {
     std::string outputF = argv[2];
     std::string configF = argv[3];
     size_t memLim = static_cast<size_t>(std::stoull(argv[4]));
+    if (memLim < 4) {
+      std::cerr << "Not enough memory in RAM. Need 4 or more bytes\n";
+      return 1;
+    }
 
     TapeConfig config = loadConfig(configF);
     TapeSorter sorter(memLim);
