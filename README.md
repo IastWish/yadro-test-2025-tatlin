@@ -1,2 +1,1 @@
-# Тестовое задание
-TATLIN.Unified
+# Тестовое задание TATLIN.Unified
